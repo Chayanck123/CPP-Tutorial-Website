@@ -1,0 +1,177 @@
+#container {
+    width: 1050px;
+    height: 100px;
+    margin: 0 auto;
+}
+h1 a {
+    font-size: 50px;
+    font-weight: 100;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+#searchBox {
+    float: right;
+    background: rgb(242, 242, 69);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 10px;
+}
+
+#brand {
+    float: left;
+}
+
+#header {
+    height: 100px;
+    padding: 10px 0;
+
+}
+
+.text {
+    float: left;
+    color: rgb(156, 181, 12);
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    list-style-image: url(image/search.png) right center no-repeat;
+
+
+
+}
+
+.submit {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    background-color: blueviolet;
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu {
+    height: 70px;
+    background-color: rgb(242, 242, 69);
+    padding: 7px 0;
+
+}
+
+#menu ul li {
+    float: left;
+    padding: 0 30px;
+    border-right: 1px solid blueviolet;
+}
+
+#menu ul li:last-child {
+    border-right: none;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: blueviolet;
+    line-height: 30px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+
+
+}
+
+#menu ul li::last-child {
+    border-right: none;
+}
+
+#menu ul li a:hover,
+#menu ul li a.active {
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+#introduction {
+    background-color: rgb(190, 248, 108);
+    padding: 30px;
+    margin: 16px 0;
+}
+
+#introduction h3 {
+    font-size: 45px;
+    color: rgb(100, 115, 4);
+    font-weight: normal;
+}
+
+#introduction p {
+    font-size: 25px;
+    color: rgb(100, 115, 4);
+    text-align: justify;
+}
+
+.sidebar {
+    height: 500px;
+    width: 400px;
+    border: 1px solid rgb(146, 194, 12);
+    border-radius: 20px;
+    padding: 10px 55px;
+}
+
+.sidebar h3 {
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: blueviolet;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#leftsidebar {
+    float: left;
+}
+
+#leftsidebar ul li {
+    padding-bottom: 8px;
+    padding-left: 30px;
+    list-style-image: url(image/arrow.png);
+}
+
+#righsidebar {
+    float: right;
+}
+
+#righsidebar ul li {
+    padding-bottom: 20px;
+    padding-left: 30px;
+    list-style-image: url(image/passmark.png);
+}
+
+.footer {
+    height: 60px;
+    background-color: rgb(190, 248, 108);
+    padding: 10px 30px;
+    margin-top: 15px;
+}
